@@ -8,7 +8,7 @@
 
 /* container */
 .container{
-    max-width: 1400px;
+    max-width: 1650px;
     margin: 0 auto;
     width: 100%;
 }
@@ -30,7 +30,7 @@ header{
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 4rem;
+      gap: 12px;
       position: relative;
     }
 
@@ -122,10 +122,47 @@ header{
       opacity: 1;
     }
 
-    .navbar button {
+    .navbar .search button {
       padding: 6px 10px;
       cursor: pointer;
       background-color: transparent;
       border: none;
       font-size: 30px;
+    }
+    .language{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        img{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+    }
+    .language h3{
+        font-size: 16px;
+        font-weight: 400;
+        display: flex;
+    }
+    .phone{
+        display: flex;
+        color: red;
+        font-size: 22px;
+        font: 600;
+    }
+
+    .button button{
+        padding: 18px;
+        font-size: 14px;
+        border-radius: 12px;
+        font-weight: 800;
+    }
+    .button1{
+        border: 1px solid red;
+        background-color: transparent;
+    }
+    .button2{
+        border: 1px solid red;
+        background-color: red;
+        color: #fff;
     }
