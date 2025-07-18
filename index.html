@@ -19,9 +19,14 @@
     <!-- header -->
     <header>
   <nav class="navbar container">
+
   <div class="logo">
     <img src="./img/svg/korotkii-logotip-brb.svg" alt="Logotip">
   </div>
+<!-- MENU TUGMASI - faqat mobilda ko‘rinadi -->
+<div class="menu-toggle" onclick="toggleMenu()">
+  <i class="ri-menu-line"></i>
+</div>
 
   <div class="dropdown">
     <p onclick="toggleDropdown(this)">Biznes uchun <i class="ri-arrow-down-s-line"></i></p>
@@ -85,12 +90,35 @@
         <button class="button1">Onlayin Tulash</button>
         <button class="button2">Maslahat Oling</button>
     </div>
+
 </nav>
 
     </header>
-    <!-- end -->
+     <!-- main -->
+      <main>
+        <!-- hero section -->
+        <section class="hero container">
+         <div class="hero_img">
+             <div>
+                  <h1>Yuridik shaxslar uchun bank tariflari</h1>
+            <p>O'zingizga mos tarifni tanlang va bank xizmatlaridan samarali foydalaning!</p>
+            <div class="button hero_button">
+                <button class="button2">Maslahat Olish</button>
+                <button class="btn">Batafsil Malumot</button>
+             </div>
+            </div>
+         </div>
+        </section>
+        <div class="container text">
+            <h2>Biznes uchun yechimlar</h2>
+            <p>Biz biznesingizga qulay va ishonchli yechimlar taklif etamiz!</p>
+        </div>
+      </main>
      <!-- script -->
     <script>
+  function toggleMenu() {
+    document.querySelector('.navbar').classList.toggle('active');
+  }
         function expandSearch() {
   const input = document.getElementById("search-input");
   input.classList.toggle("active");
