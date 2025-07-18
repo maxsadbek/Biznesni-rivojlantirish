@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
+    <title>Biznesni Rivojlantirish Banki</title>
+    <!-- style sheets -->
+     <link rel="stylesheet" href="./style.css">
+     <!-- this is favicon -->
+      <link rel="shortcut icon" href="./img/svg/korotkii-logotip-brb.svg" type="image/x-icon">
+      <!-- remix icon -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+  <nav class="navbar container">
+  <div class="logo">
+    <img src="./img/svg/korotkii-logotip-brb.svg" alt="Logotip">
+  </div>
+
+  <div class="dropdown">
+    <p onclick="toggleDropdown(this)">Biznes uchun <i class="ri-arrow-down-s-line"></i></p>
+    <div class="dropdown-content">
+      <a href="#">Biznes kreditlar</a>
+      <a href="#">Hisob raqamlar</a>
+      <a href="#">Tashqi savdo xizmatlari</a>
+      <a href="#">POS terminallar</a>
+      <a href="#">Korxona hisoboti</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <p onclick="toggleDropdown(this)">Jismoniy shaxslarga <i class="ri-arrow-down-s-line"></i></p>
+    <div class="dropdown-content">
+      <a href="#">Uzcard/Visa kartalar</a>
+      <a href="#">Kredit olish</a>
+      <a href="#">Mobil ilova</a>
+      <a href="#">SMS xabarnoma</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <p onclick="toggleDropdown(this)">Bank haqida <i class="ri-arrow-down-s-line"></i></p>
+    <div class="dropdown-content">
+      <a href="#">Bank tarixi</a>
+      <a href="#">Rahbariyat</a>
+      <a href="#">Filiallar</a>
+      <a href="#">Sertifikatlar</a>
+      <a href="#">Bog‘lanish</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <p onclick="toggleDropdown(this)">Yana <i class="ri-arrow-down-s-line"></i></p>
+    <div class="dropdown-content">
+      <a href="#">Investorlar</a>
+      <a href="#">Yangiliklar</a>
+      <a href="#">Ijtimoiy loyihalar</a>
+      <a href="#">Karyera</a>
+      <a href="#">Savol-javoblar</a>
+    </div>
+  </div>
+    <div class="search-container">
+  <input type="text" id="search-input" placeholder="Qidirish...">
+  <button onclick="expandSearch()"><i class="ri-search-line"></i></button>
+</div>
+
+    <div style="font-size: 25px;">
+        <i class="ri-glasses-fill"></i>
+    </div>
+</nav>
+
+    </header>
+    <!-- end -->
+     <!-- script -->
+    <script>
+        function expandSearch() {
+  const input = document.getElementById("search-input");
+  input.classList.toggle("active");
+}
+
+  function toggleDropdown(clicked) {
+    document.querySelectorAll('.dropdown').forEach(drop => {
+      if (drop.contains(clicked)) {
+        drop.classList.toggle('open');
+      } else {
+        drop.classList.remove('open');
+      }
+    });
+  }
+
+  // Tashqariga bosilsa yopilsin
+  window.addEventListener("click", function (e) {
+    if (!e.target.closest(".dropdown")) {
+      document.querySelectorAll(".dropdown").forEach(d => d.classList.remove("open"));
+    }
+  });
+</script>
+
+</body>
+
+</html>
