@@ -245,6 +245,12 @@ button{
     -webkit-box-shadow: 0px 0px 11px -2px rgb(160, 160, 160);
     -moz-box-shadow: 0px 0px 11px -2px rgb(153, 153, 153);
     box-shadow: 0px 0px 11px -2px rgb(147, 148, 150);
+    transition: all 0.7s ease;
+    &:hover{
+-webkit-box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+-moz-box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+    }
   }
 
   .card_img{
@@ -294,6 +300,12 @@ button{
     -webkit-box-shadow: 0px 0px 11px -2px rgb(160, 160, 160);
 -moz-box-shadow: 0px 0px 11px -2px rgb(153, 153, 153);
 box-shadow: 0px 0px 11px -2px rgb(147, 148, 150);
+ transition: all 0.7s ease;
+    &:hover{
+-webkit-box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+-moz-box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+    }
 }
 .card_2 img{
 
@@ -341,6 +353,15 @@ box-shadow: 0px 0px 11px -2px rgb(147, 148, 150);
       padding: 16px;
       border-bottom: 1px solid #eee;
       font-size: 20px;
+      transition: all 0.6s ease;
+    }
+
+    td{
+            &:hover{
+        background-color: #666;
+        color: #fff;
+        transform: scale(1.02);
+      }
     }
     .down {
       color: red;
@@ -370,6 +391,12 @@ box-shadow: 0px 0px 11px -2px rgb(147, 148, 150);
       box-shadow: 0px 0px 11px -2px rgb(147, 148, 150);
       margin-right: 2rem;
       padding-top: 2rem;
+      transition: 0.6s ease all;
+      &:hover{
+      -webkit-box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+      -moz-box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+      box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+    }
     }
     .grid img{
       width: 40%;
@@ -424,6 +451,15 @@ box-shadow: 0px 0px 11px -2px rgb(147, 148, 150);
       padding-bottom: 4rem;
       font-weight: 500;
       font-size: 20px;
+    }
+
+    button{
+      transition: 0.5s;
+      &:hover{
+        -webkit-box-shadow: 0px 31px 17px -15px rgba(81, 94, 104, 0.48);
+        -moz-box-shadow: 0px 31px 17px -15px rgba(117, 123, 128, 0.48);
+        box-shadow: 0px 31px 17px -15px rgba(89, 95, 100, 0.48);
+      }
     }
 
     .button3{
