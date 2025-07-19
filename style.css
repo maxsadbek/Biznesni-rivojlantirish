@@ -237,7 +237,7 @@ button{
 
 .card_1{
     width: 650px;
-    height: 830px;
+    height: 790px;
     background-color: #f4f4f4;
     padding: 3rem;
     text-align: center;
@@ -302,3 +302,38 @@ box-shadow: 0px 0px 11px -2px rgb(147, 148, 150);
 .card_2_img{
     margin-top: 2.6rem;
 }
+/* end */
+
+/* valyuta section css */
+
+      .valyuta{
+        margin-left: 13rem;
+        margin-top: 12rem;
+      }
+
+      table {
+      width: 89%;
+      border-collapse: collapse;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+
+    }
+    thead {
+      background: #fdbec2;
+    }
+    th, td {
+      padding: 16px;
+      border-bottom: 1px solid #eee;
+      font-size: 20px;
+    }
+    .down {
+      color: red;
+      margin-left: 5px;
+    }
+    .updated {
+      margin-top: 10px;
+      font-style: italic;
+      color: #666;
+    }
