@@ -512,3 +512,42 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
       border-radius: 20px;
       margin-bottom: 2rem;
     }
+    /* End */
+
+    .banner{
+      background-image: url(./img/png/Banner-6268417e.png);
+      width: 78%;
+      align-items: center;
+      display: flex;
+      padding-inline: 5rem;
+      background-position: 35% 50%;
+      background-size: 100rem;
+      justify-content: space-between;
+      margin-bottom: 4rem;
+      border-radius: 30px;
+      margin-top: 9rem;
+      height: 500px;
+    }
+
+    .banner_div h1{
+      font-size: 65px;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+
+    .banner_div p{
+      font-size: 20px;
+      width: 60%;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+      color: #666;
+    }
+
+    .banner_button{
+      background-color: transparent;
+      border: 1px solid rgb(209, 203, 203);
+
+      &:hover{
+        border: 1px solid #000000;
+      }
+    }
