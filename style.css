@@ -516,7 +516,7 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
 
     .banner{
       background-image: url(./img/png/Banner-6268417e.png);
-      width: 78%;
+      width: 82%;
       align-items: center;
       display: flex;
       padding-inline: 5rem;
@@ -596,12 +596,13 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
     }
 
     .Elon-text button{
-      padding: 16px 25px;
+      padding: 18px 25px;
       background-color: #e6e4e4;
       border-radius: 12px;
       border: none;
-      font-size: 16px;
+      font-size: 14px;
       margin-top: 2rem;
+      margin-bottom: 2rem;
 
       &:hover{
         color: red;
