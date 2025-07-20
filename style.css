@@ -608,3 +608,65 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
         color: red;
       }
     }
+
+    /* End */
+
+    .contact{
+      text-align: center;
+      margin-top: 5rem;
+    }
+
+    .contact h1{
+      font-size: 50px;
+      margin-bottom: 1rem;
+      font-weight: 400;
+      letter-spacing: 2px;
+    }
+
+    .contact p {
+      font-size: 20px;
+      color: #666;
+      margin-bottom: 1.5rem;
+    }
+
+
+    .contact form input{
+      margin-top: 2rem;
+      border-radius: 15px;
+      border: 1px solid gray;
+      outline: none;
+      &:hover{
+        border: 1px solid #0077ff;
+      }
+    }
+
+    .input1{
+      width: 60%;
+      padding: 25px 20px;
+      font-size: 17px;
+    }
+
+    .contact_input input{
+      width: 29.5%;
+      padding: 25px 20px;
+      font-size: 17px;
+    }
+
+    .input2{
+      margin-left: 1rem;
+    }
+
+    .flex{
+      display: flex;
+      justify-content: center;
+      padding-inline: 10rem;
+      gap: 10rem;
+      margin-top: 5rem;
+      text-align: start;
+    }
+
+    .flex h4{
+      font-size: 17px;
+      color: #666;
+      width: 59%;
+    }
