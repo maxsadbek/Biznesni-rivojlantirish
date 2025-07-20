@@ -551,3 +551,59 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
         border: 1px solid #000000;
       }
     }
+
+    /* End */
+
+    .Elon{
+      display: flex;
+      padding-inline: 4rem;
+      overflow: hidden;
+      justify-content: space-around;
+      gap: 4rem;
+      padding-right: 7rem;
+    }
+    .Elon img{
+      width: 30%;
+    }
+
+    .Elon-text h1{
+      font-size: 45px;
+      width: 70%;
+      font-weight: 400;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+    }
+
+    .Elon-text p{
+      font-size: 20px;
+      width: 76%;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+    }
+
+    .Elon-text ul li{
+      font-size: 20px;
+      width: 70%;
+      margin-top: 1rem;
+      list-style-type: initial;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .Elon-text ul li span{
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .Elon-text button{
+      padding: 16px 25px;
+      background-color: #e6e4e4;
+      border-radius: 12px;
+      border: none;
+      font-size: 16px;
+      margin-top: 2rem;
+
+      &:hover{
+        color: red;
+      }
+    }
