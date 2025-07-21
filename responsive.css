@@ -45,6 +45,8 @@ header{
       align-items: center;
       gap: 1px;
       position: relative;
+      width: 100%;
+      padding: 0px;
     }
 
     .logo img {
@@ -147,7 +149,7 @@ header{
       cursor: pointer;
       background-color: transparent;
       border: none;
-      font-size: 30px;
+      font-size: 25px;
     }
     .language{
         display: none;
@@ -165,9 +167,17 @@ header{
         display: flex;
     }
     .phone{
-        display: flex;
+        display: none;
         color: red;
         font-size: 22px;
+        font: 600;
+    }
+
+    .phone2{
+      display: block;
+      display: flex;
+      color: red;
+        font-size: 16px;
         font: 600;
     }
 
@@ -186,5 +196,9 @@ header{
         border: 1px solid red;
         background-color: red;
         color: #fff;
+    }
+    .menu-toggle{
+      display: block;
+      font-size: 25px;
     }
 }
