@@ -9,6 +9,8 @@
     <title>Biznesni Rivojlantirish Banki</title>
     <!-- style sheets -->
      <link rel="stylesheet" href="./style.css">
+     <!-- responsive style sheet -->
+      <link rel="stylesheet" href="./responsive.css">
      <!-- this is favicon -->
       <link rel="shortcut icon" href="./img/svg/korotkii-logotip-brb.svg" type="image/x-icon">
       <!-- remix icon -->
@@ -18,15 +20,17 @@
 <body>
     <!-- header -->
     <header>
-  <nav class="navbar container">
-
+ <nav class="navbar container">
   <div class="logo">
     <img src="./img/svg/korotkii-logotip-brb.svg" alt="Logotip">
   </div>
-<!-- MENU TUGMASI - faqat mobilda ko‘rinadi -->
-<div class="menu-toggle" onclick="toggleMenu()">
-  <i class="ri-menu-line"></i>
-</div>
+
+  <!-- MENU tugmasi faqat mobil uchun -->
+  <div class="menu-toggle" onclick="toggleMenu()">
+    <i class="ri-menu-line"></i>
+  </div>
+
+  <!-- qolgan menyu qismlari pastda ketadi -->
 
   <div class="dropdown">
     <p onclick="toggleDropdown(this)">Biznes uchun <i class="ri-arrow-down-s-line"></i></p>
@@ -75,7 +79,7 @@
   <button onclick="expandSearch()"><i class="ri-search-line"></i></button>
 </div>
 
-    <div style="font-size: 25px;">
+    <div style="font-size: 25px;" class="ochki">
         <i class="ri-glasses-fill"></i>
     </div>
     <div class="language">
@@ -91,7 +95,7 @@
         <button class="button2">Maslahat Oling</button>
     </div>
 
-</nav>
+  </nav>
 
     </header>
      <!-- main -->
@@ -401,6 +405,10 @@
       </main>
      <!-- script -->
     <script>
+  function toggleMenu() {
+    document.querySelector('.navbar').classList.toggle('active');
+  }
+
   function toggleMenu() {
     document.querySelector('.navbar').classList.toggle('active');
   }
