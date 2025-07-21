@@ -392,7 +392,7 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
     th, td {
       padding: 6px;
       border-bottom: 1px solid #eee;
-      font-size: 20px;
+      font-size: 15px;
       transition: all 0.6s ease;
       padding: 10px;
     }
@@ -456,4 +456,139 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
       margin-top: 2.4rem;
       object-fit: cover;
     }
+
+      /* BRB ilovasi */
+
+    .hero_2{
+      text-align: center;
+      margin-top: 4rem;
+      margin-bottom: 1rem;
+      width: 90%;
+      height: 300px;
+      margin-left: 1rem;
+      object-fit: cover;
+    }
+    .hero_2 h1{
+      align-items: center;
+      text-align: center;
+      font-size: 26px;
+      padding-top: 2rem;
+      width: 100%;
+      padding-left: 1rem;
+    }
+
+    .hero_img2{
+      height: 350px;
+    }
+    .hero_img2 h3{
+      margin-left: 1rem;
+      margin-top: 1rem;
+      padding-bottom: 1rem;
+      font-weight: 500;
+      font-size: 18px;
+      color: #666;
+    }
+
+    button{
+      transition: 0.5s;
+      &:hover{
+        -webkit-box-shadow: 0px 31px 17px -15px rgba(81, 94, 104, 0.48);
+        -moz-box-shadow: 0px 31px 17px -15px rgba(117, 123, 128, 0.48);
+        box-shadow: 0px 31px 17px -15px rgba(89, 95, 100, 0.48);
+      }
+    }
+
+    .button3{
+      margin-top: 2rem;
+    }
+
+    /* End */
+
+
+    /* valyuta kursi section css */
+
+    .valyuta_kurs{
+      align-items: center;
+      margin-top: 2rem;
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    .valyuta_kurs hr{
+      opacity: 0.5;
+    }
+
+    .text2{
+      padding-left: 20rem;
+      font-size: 18px;
+      margin-top: 5rem;
+      font-weight: 100;
+    }
+    .valyuta_text{
+      display: flex;
+      text-align: center;
+      gap: 8rem;
+      justify-content: space-between;
+    }
+    .valyuta_text h3{
+      font-size: 22px;
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+
+    .valyuta_text p{
+      font-size: 20px;
+      margin-top: 1rem;
+    }
+
+    .valyuta_kurs .btn2{
+      padding: 5px;
+      font-size: 17px;
+      color: #fff;
+      background-color: #000;
+      border-radius: 20px;
+      margin-bottom: 2rem;
+    }
+    /* End */
+
+    .banner{
+      background-image: url(./img/png/Banner-6268417e.png);
+      width: 82%;
+      align-items: center;
+      display: flex;
+      padding-inline: 5rem;
+      background-position: 35% 50%;
+      background-size: 100rem;
+      justify-content: space-between;
+      margin-bottom: 4rem;
+      border-radius: 30px;
+      margin-top: 9rem;
+      height: 500px;
+    }
+
+    .banner_div h1{
+      font-size: 65px;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+
+    .banner_div p{
+      font-size: 20px;
+      width: 60%;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+      color: #666;
+    }
+
+    .banner_button{
+      background-color: transparent;
+      border: 1px solid rgb(209, 203, 203);
+
+      &:hover{
+        border: 1px solid #000000;
+      }
+    }
+
+    /* End */
+
 }
