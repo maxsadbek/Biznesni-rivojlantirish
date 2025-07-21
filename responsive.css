@@ -4,20 +4,20 @@
 .container{
     max-width: 1620px;
     margin: 0 auto;
-    width: 95%;
+    width: 90%;
 }
 .search-container {
   position: relative;
 }
 
 #search-input {
-  width: 100px;
+  width: 70px;
   transition: width 0.5s ease;
   padding: 5px 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   position: absolute; /* Muhimi shu! */
-  top: 10px;
+  top:15px;
   right: 50px;
   z-index: 10;
   background: white;
@@ -31,7 +31,8 @@
 /* start */
 
 header{
-    padding: 3rem;
+    padding: 1rem;
+    width: 100%;
 }
 .navbar{
      display: flex;
@@ -43,21 +44,21 @@ header{
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 1px;
+      gap: 0px;
       position: relative;
-      width: 100%;
       padding: 0px;
     }
 
     .logo img {
       width: 50px;
-      margin-left: 20px;
+      margin-left:20px;
     }
 
     .navbar > div {
       position: relative;
       margin-left: 20px;
       cursor: pointer;
+      padding: 0;
     }
 
     .navbar p {
@@ -140,11 +141,11 @@ header{
     }
 
     #search-input.active {
-      width: 200px;
+      width: 180px;
       opacity: 1;
     }
 
-    .navbar .search button {
+    .navbar .search  {
       padding: 6px 10px;
       cursor: pointer;
       background-color: transparent;
@@ -177,12 +178,11 @@ header{
       display: block;
       display: flex;
       color: red;
-        font-size: 16px;
-        font: 600;
-    }
+        font-size: 18px;
+      font-weight: 800;
+      }
 
     .button button{
-      display: none;
         padding: 18px;
         font-size: 14px;
         border-radius: 12px;
@@ -191,14 +191,77 @@ header{
     .button1{
         border: 1px solid red;
         background-color: transparent;
+      display: none;
     }
     .button2{
         border: 1px solid red;
         background-color: red;
         color: #fff;
     }
+
+    .btn3{
+      display: none;
+    }
+
     .menu-toggle{
-      display: block;
+      display: none;
       font-size: 25px;
     }
+    .hero{
+        width: 95%;
+        height: 300px;
+        overflow: hidden;
+        object-fit: cover;
+        background-size: 69rem;
+        background-color: #000;
+        color: #fff;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .hero_img{
+        background-image: url(./img/svg/Intersect123-0a39856b.svg);
+        background-position: 20% 50%;
+        background-size: 30rem;
+        height:200px;
+        padding-inline: 1rem;
+    }
+    .hero h1{
+        font-size: 25px;
+        margin-bottom: 1rem;
+        padding-top: 2rem;
+    }
+    .hero p{
+        color: gray;
+        font-size: 17px;
+    }
+
+.hero_button{
+    margin-top: 2rem;
+    display: block;
+}
+.btn{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ffff;
+    margin-left: 1rem;
+}
+.text{
+    margin-top: 5rem;
+    line-height: 2;
+    h2{
+        font-size: 30px;
+        font-family: "roboto" ,sans-serif;
+        margin-left: 5rem;
+    }
+    p{
+        font-size: 20px;
+        margin-left: 5rem;
+        font-weight: 600;
+        color: gray;
+    }
+}
+button{
+    cursor: pointer;
+}
+
 }
