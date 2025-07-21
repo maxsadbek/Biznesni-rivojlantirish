@@ -670,3 +670,75 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
       color: #666;
       width: 59%;
     }
+
+    /* end */
+
+    .yangiliklar{
+      display: flex;
+      justify-content: space-between;
+      padding-inline: 4rem;
+      margin-top: 4rem;
+    }
+
+
+    .yangilik_flex{
+      width: 440px;
+    }
+
+    .yangilik_flex img{
+      width: 438px;
+      height: 300px;
+      object-fit: cover;
+      overflow: hidden;
+      border-radius: 20px;
+      margin-bottom: 1rem;
+    }
+
+    .yangilik_flex button{
+      padding: 5px 5px;
+      border: none;
+      background-color: #E2E8F1;
+      border-radius: 20px;
+      font-size: 17px;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .yangilik_flex h3{
+      font-size: 25px;
+      font-weight: 500;
+      margin-left: 1rem;
+    }
+
+    .yangilik_flex p{
+      font-size: 18px;
+      color: #666;
+      margin-left: 1rem;
+      margin-top: 1rem;
+    }
+
+    .yangilik-text{
+      display: flex;
+      align-items: center;
+    }
+
+    .yangiliklar_button{
+      text-align: center;
+      margin-top: 4rem;
+    }
+
+
+    .yangiliklar_button button{
+      padding: 16px 20px;
+      border: 1px solid #d3d3d3;
+      font-size: 16px;
+      background-color: transparent;
+      border-radius: 10px;
+      margin-bottom: 3rem;
+      color: #818181;
+
+      &:hover{
+        border: 1px solid #000;
+        color: #000;
+      }
+    }
