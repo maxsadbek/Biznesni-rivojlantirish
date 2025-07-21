@@ -39,19 +39,21 @@ header{
     align-items: center;
     justify-content: center;
     font-size: 18px;
+    max-width: 90%;
 }
  .navbar {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 0px;
+      gap: 12px;
       position: relative;
       padding: 0px;
+      width: 100%;
     }
 
     .logo img {
       width: 50px;
-      margin-left:20px;
+      margin-left:25px;
     }
 
     .navbar > div {
@@ -217,6 +219,7 @@ header{
         color: #fff;
         border-radius: 15px;
         text-align: center;
+        margin-top: 2rem;
     }
     .hero_img{
         background-image: url(./img/svg/Intersect123-0a39856b.svg);
@@ -246,16 +249,16 @@ header{
     margin-left: 1rem;
 }
 .text{
-    margin-top: 5rem;
+    margin-top: 2rem;
     line-height: 2;
     h2{
-        font-size: 30px;
+        font-size: 24px;
         font-family: "roboto" ,sans-serif;
-        margin-left: 5rem;
+        margin-left: 0rem;
     }
     p{
-        font-size: 20px;
-        margin-left: 5rem;
+        font-size: 15px;
+        margin-left: 0rem;
         font-weight: 600;
         color: gray;
     }
@@ -264,4 +267,141 @@ button{
     cursor: pointer;
 }
 
+.card{
+    padding-inline: 0rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+    .card_1{
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f4;
+    padding: 3rem;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 11px -2px rgb(160, 160, 160);
+    -moz-box-shadow: 0px 0px 11px -2px rgb(153, 153, 153);
+    box-shadow: 0px 0px 11px -2px rgb(147, 148, 150);
+    transition: all 0.7s ease;
+    &:hover{
+-webkit-box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+-moz-box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+    }
+  }
+
+  .card_img{
+    height:200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card_p{
+    padding-bottom: -100px;
+  }
+
+  .card_1 img{
+    width: 160px;
+  }
+  .card_1 h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    padding: 3rem;
+    padding-bottom: 1rem;
+    transition: all 0.4s;
+    &:hover{
+        color: red;
+    }
+  }
+  .card_1 p{
+    font-size: 17px;
+    color: gray;
+  }
+
+  .card_flex{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+  .card_parent{
+    height: auto;
+  }
+
+.card_2{
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+        border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 11px -2px rgb(160, 160, 160);
+-moz-box-shadow: 0px 0px 11px -2px rgb(153, 153, 153);
+box-shadow: 0px 0px 11px -2px rgb(147, 148, 150);
+ transition: all 0.7s ease;
+    &:hover{
+-webkit-box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+-moz-box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
+    }
+}
+.card_2 img{
+
+        width: 175px;
+}
+.card_2 h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+      padding: 2rem;
+    padding-bottom: 1rem;
+    transition: all 0.4s;
+    &:hover{
+        color: red;
+    }
+}
+.card_2 p{
+    color: gray;
+}
+.card_2_img{
+    margin-top: 2.6rem;
+}
+/* end */
+
+  .valyuta{
+        width: 90%;
+        margin-left: 1rem;
+        margin-top: 3rem;
+      }
+
+      table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+
+    }
+    thead {
+      background: #fab0b5;
+    }
+    th, td {
+      padding: 6px;
+      border-bottom: 1px solid #eee;
+      font-size: 20px;
+      transition: all 0.6s ease;
+      padding: 10px;
+    }
+
+    td{
+            &:hover{
+        background-color: #666;
+        color: #fff;
+        transform: scale(1.02);
+      }
+    }
 }
