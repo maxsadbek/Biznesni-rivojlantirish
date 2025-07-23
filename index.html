@@ -471,7 +471,74 @@
             <p>Bo'sh ish o'rinlari</p>
             <p>Sayt xaritasi</p>
           </div>
+
          </div>
+<div class="footer_box2 footer_acardion">
+  <h3 class="accordion-header">Biznes uchun</h3>
+  <div class="accordion-content">
+    <p>Kreditlar</p>
+    <p>Kartalar</p>
+    <p>Qulay hisob raqam</p>
+    <p>Depozitlar</p>
+    <p>Xorijiy kreditlar</p>
+    <p>Bank kafolatlar</p>
+    <p>Faktoring</p>
+    <p>Ish haqi loyihasi</p>
+    <p>Yuridik shaxslar uchun tariflari</p>
+    <p>Mahalla bankirlari</p>
+    <p>Toʻlov terminalini ijaraga berish</p>
+    <p>Masofadan xizmat ko‘rsatish tizimlari</p>
+  </div>
+</div>
+
+<div class="footer_box2 footer_acardion">
+  <h3 class="accordion-header">Jismoniy shaxslar uchun</h3>
+  <div class="accordion-content">
+    <p>Kartalar</p>
+    <p>Omonatlar</p>
+    <p>Investitsiyalar</p>
+    <p>Ipoteka</p>
+    <p>Kreditlar</p>
+    <p>Tariflar</p>
+    <p>Pul o'tkazmalari</p>
+    <p>SWIFT pul o'tkazmalari</p>
+  </div>
+</div>
+
+<div class="footer_box2 footer_acardion">
+  <h3 class="accordion-header">Bank haqida</h3>
+  <div class="accordion-content">
+    <p>Bank haqida</p>
+    <p>Rahbariyat</p>
+    <p>Bank tuzilmasi</p>
+    <p>Moliyaviy ko'rsatkichlar</p>
+    <p>Rivojlanish strategiyasi</p>
+    <p>Ma'lumotlarni oshkor qilish</p>
+    <p>Axborot xizmati</p>
+    <p>Normativ hujjatlar</p>
+    <p>Bank reytinglari</p>
+    <p>Bank aksiyalari</p>
+    <p>Bog'lanish</p>
+  </div>
+</div>
+
+<div class="footer_box2 footer_acardion">
+  <h3 class="accordion-header">Yana</h3>
+  <div class="accordion-content">
+    <p>Yangiliklar</p>
+    <p>Tanlov va tenderlar</p>
+    <p>E'lon</p>
+    <p>Korrupsiyaga qarshi kurashish</p>
+    <p>Ichki nazorat</p>
+    <p>Foydali resurslar</p>
+    <p>Fuqarolar murojaatlari</p>
+    <p>Mening Biznesim ilovasi</p>
+    <p>Biznesni Rivojlantirish Mikromoliya Tashkiloti</p>
+    <p>Bo'sh ish o'rinlari</p>
+    <p>Sayt xaritasi</p>
+  </div>
+</div>
+
          <hr>
          <div class="footer_box_flex2">
           <div class="footer_fotbox">
@@ -553,6 +620,21 @@
     if (!e.target.closest(".dropdown")) {
       document.querySelectorAll(".dropdown").forEach(d => d.classList.remove("open"));
     }
+  });
+   document.addEventListener("DOMContentLoaded", function () {
+    const headers = document.querySelectorAll(".accordion-header");
+
+    headers.forEach(header => {
+      header.addEventListener("click", () => {
+        header.classList.toggle("active");
+        const content = header.nextElementSibling;
+        if (header.classList.contains("active")) {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } else {
+          content.style.maxHeight = null;
+        }
+      });
+    });
   });
 </script>
 
