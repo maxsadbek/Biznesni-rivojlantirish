@@ -1,3 +1,4 @@
+
 @media screen and (max-width:600px){
 
 /* container */
@@ -45,7 +46,7 @@ header{
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 12px;
+      gap: 5px;
       position: relative;
       padding: 0px;
       width: 100%;
@@ -132,6 +133,7 @@ header{
       display: flex;
       align-items: center;
       gap: 10px;
+      margin-right: 1rem;
     }
 
     #search-input {
@@ -415,7 +417,7 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
         /* end */
     .grid{
       margin-left: 2rem;
-      width: 100%;
+      width: 95%;
       background-color: #f4f4f4;
       text-align: center;
       margin-top: 2rem;
@@ -510,7 +512,7 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
     .valyuta_kurs{
       align-items: center;
       margin-top: 2rem;
-      width: 100%;
+      width: 90%;
       margin-bottom: 2rem;
     }
 
@@ -529,17 +531,17 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
       text-align: center;
       gap: 0;
       justify-content: space-between;
-      width: 90%;
+      width: 80%;
       padding-inline-start: 1rem;
     }
     .valyuta_text h3{
-      font-size: 17px;
+      font-size: 13px;
       margin-bottom: 1rem;
       margin-top: 1rem;
     }
 
     .valyuta_text p{
-      font-size: 20px;
+      font-size: 15px;
       margin-top: 1rem;
     }
 
@@ -568,10 +570,16 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
       margin-top: 9rem;
       height: 650px;
       text-align: center;
+      padding-top: 3rem;
+      padding-bottom: 1rem;
     }
     .banner img{
+      display: flex;
+      justify-content: center;
+      margin-left: 0rem;
+      text-align: center;
       width: 70%;
-      height: 300px;
+      height: 280px;
       object-fit: cover;
     }
     .banner_div h1{
@@ -611,4 +619,290 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
 
     /* End */
 
+    .Elon{
+      display: flex;
+      flex-direction: column;
+      padding-inline: 0rem;
+      overflow: hidden;
+      justify-content: space-around;
+      gap: 0rem;
+      padding-right: 0rem;
+      width: 100%;
+    }
+    .Elon img{
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 16px;
+    }
+
+    .Elon-text h1{
+      font-size: 18px;
+      width:80%;
+      font-weight: 400;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+      margin-left: 16px;
+    }
+
+    .Elon-text p{
+      font-size: 14px;
+      width: 90%;
+      line-height: 2;
+      margin-bottom: 1.5rem;
+      margin-left: 15px;
+    }
+
+    .Elon-text ul li{
+      font-size: 14px;
+      width: 90%;
+      margin-top: 1rem;
+      list-style-type: initial;
+      margin-left: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .Elon-text ul li span{
+      font-size: 17px;
+      font-weight: 800;
+    }
+
+    .Elon-text button{
+      padding: 14px 20px;
+      background-color: #e6e4e4;
+      border-radius: 12px;
+      border: none;
+      font-size: 14px;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      margin-left: 1rem;
+
+      &:hover{
+        color: red;
+      }
+    }
+
+    /* End */
+
+    .contact{
+      text-align: center;
+      margin-top: 5rem;
+    }
+
+    .contact h1{
+      font-size: 25px;
+      margin-bottom: 1rem;
+      font-weight: 400;
+      letter-spacing: 2px;
+    }
+
+    .contact p {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 1.5rem;
+    }
+
+    .contact form input{
+      margin-top: 1rem;
+      border-radius: 15px;
+      border: 1px solid gray;
+      outline: none;
+      &:hover{
+        border: 1px solid #0077ff;
+      }
+    }
+
+    .input1{
+      width: 90%;
+      padding: 20px 20px;
+      font-size: 17px;
+    }
+
+    .contact_input{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+
+    .contact_input input{
+      width: 90%;
+      padding: 20px 20px;
+      font-size: 14px;
+      text-align: center;
+    }
+
+    .input2{
+      margin-left: 0rem;
+    }
+
+    .flex{
+      display: flex;
+      justify-content: center;
+      padding-inline: 0rem;
+      gap: 3rem;
+      margin-top: 2rem;
+      text-align: start;
+      flex-direction: column;
+    }
+
+    .contact_btn {
+      width: 92%;
+      margin-left: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .flex h4{
+      font-size: 12px;
+      color: #666;
+      width: 90%;
+      margin-left: 1rem;
+    }
+
+    /* end */
+
+    .yangiliklar{
+      display: flex;
+      flex-direction: column;
+      padding-inline: 0rem;
+      margin-top: 4rem;
+    }
+
+
+    .yangilik_flex{
+      width: 100%;
+      gap: 5rem;
+    }
+
+    .yangilik_flex img{
+      margin-top: 2rem;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      overflow: hidden;
+      border-radius: 20px;
+      margin-bottom: 1rem;
+    }
+
+    .yangilik_flex button{
+      padding: 5px 5px;
+      border: none;
+      background-color: #E2E8F1;
+      border-radius: 20px;
+      font-size: 17px;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .yangilik_flex h3{
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: 1rem;
+    }
+
+    .yangilik_flex p{
+      font-size: 14px;
+      color: #666;
+      margin-left: 1rem;
+      margin-top: 1rem;
+    }
+
+    .yangilik-text{
+      display: flex;
+      align-items: center;
+    }
+
+    .yangiliklar_button{
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+
+    .yangiliklar_button button{
+      padding: 16px 20px;
+      border: 1px solid #d3d3d3;
+      font-size: 16px;
+      background-color: transparent;
+      border-radius: 10px;
+      margin-bottom: 3rem;
+      color: #818181;
+
+      &:hover{
+        border: 1px solid #000;
+        color: #000;
+      }
+    }
+
+    /* End */
+
+    .Malumot{
+      padding: 0rem;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .malumot_div{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      background-color: #f4f4f4;
+      padding: 2rem;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      margin-left: 0rem;
+      border-radius: 12px;
+    }
+
+    .malumot_box1 button{
+      padding: 13px 20px;
+      margin-bottom: 1rem;
+      gap: 2rem;
+    }
+
+    .malumot_box1{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .malumot_box1 h2{
+      font-size: 16px;
+    }
+
+    .malumot_box2{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .malumot_box2 h2{
+      font-size: 16px;
+    }
+
+
+    .malumot_box2 i{
+      font-size: 20px;
+      cursor: pointer;
+      transition: all 0.4s ease;
+
+      &:hover{
+        color: #818181;
+      }
+    }
+    .Malumot hr{
+      rotate: 90deg;
+      border: 1px solid ;
+      border: none;
+    }
+    .hr{
+      border: 1px solid gray;
+      background-color: rgb(147, 148, 150);
+      height: 60px;
+      color: rgb(147, 148, 150);
+    }
 }

@@ -12,7 +12,7 @@
      <!-- responsive style sheet -->
       <link rel="stylesheet" href="./responsive.css">
      <!-- this is favicon -->
-      <link rel="shortcut icon" href="./img/svg/korotkii-logotip-brb.svg" type="image/x-icon">
+      <link rel="shortcut icon" href="./img/svg/ios-app-icon.svg" type="image/x-icon">
       <!-- remix icon -->
        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -91,7 +91,8 @@
     </div>
     <div class="button">
         <button class="button1">Onlayin Tulash</button>
-        <button class="button2 btn3">Maslahat Oling</button>
+        <button class="button2 btn3" onclick="scrollToMaslahat()">Maslahat Oling</button>
+
     </div>
 <!-- MENU tugmasi faqat mobil uchun -->
   <div class="menu-toggle" onclick="toggleMenu()">
@@ -331,7 +332,7 @@
               </section>
               <!-- contact section -->
 
-              <section class="container contact">
+              <section class="container contact" id="maslahat">
                 <h1>Maslahat kerakmi?</h1>
                 <p>Kontakt ma’lumotlaringizni qoldring, biz siz bilan bog‘lanamiz.</p>
 
@@ -344,7 +345,7 @@
                 </form>
                 <div class="button flex">
                   <h4>Shaklni to‘ldirish bilan ma'lumot uzatish shartlariga rozilik beraman. Bank va uning hamkorlari taqdim etadigan mahsulot va xizmatlar haqida ma'lumot olishga tayyorman.</h4>
-                  <button class="button2">Yuborish</button>
+                  <button class="button2 contact_btn" type="button">Yuborish</button>
                 </div>
               </section>
               <!-- Yangiliklar section -->
@@ -397,7 +398,7 @@
                       <button class="button2">Yo'q</button>
                     </div>
                   </div>
-                    <hr style="color: #9b9b9b; border: 1px solid rgb(204, 204, 204); height: 60px;">
+                    <hr class="hr">
                     <div class="malumot_box2">
                       <h2>Havolani ulashing:</h2>
                       <i class="ri-facebook-fill"></i>
@@ -406,8 +407,125 @@
                  </div>
                 </section>
       </main>
+      <!-- footer -->
+       <footer class="container">
+        <hr>
+         <div class="footer_box_flex">
+           <div class="footer_box1">
+            <img src="./img/svg/korotkii-logotip-brb.svg" alt="">
+            <p>O’zR Markaziy Bank operatsiyalarini amalga oshirish uchun № 93-sonli litsenziyasi, 2023-yil 30-sentyabr</p>
+            <p>Oxirgi yangilanish sanasi: 23.07.2025 06:47:41</p>
+            <img src="./img/png/3_1_FFFFFFFF_EFEFEFFF_0_pageviews.png" alt="">
+          </div>
+          <div class="footer_box2">
+            <h3>Biznes uchun</h3>
+            <p>Kreditlar</p>
+            <p>Kartalar</p>
+            <p>Qulay hisob raqam</p>
+            <p>Depozitlar</p>
+            <p>Xorijiy kreditlar</p>
+            <p>Bank kafolatlar</p>
+            <p>Faktoring</p>
+            <p>Ish haqi loyihasi</p>
+            <p>Yuridik shaxslar uchun tariflari</p>
+            <p>Mahalla bankirlari</p>
+            <p>Toʻlov terminalini ijaraga berish</p>
+            <p>Masofadan xizmat ko‘rsatish tizimlari</p>
+          </div>
+          <div class="footer_box2">
+            <h3>Jismoniy shaxslar uchun</h3>
+            <p>Kartalar</p>
+            <p>Omonatlar</p>
+            <p>Investitsiyalar</p>
+            <p>Ipoteka  </p>
+            <p>Kreditlar</p>
+            <p>Tariflar</p>
+            <p>Pul o'tkazmalari</p>
+            <p>SWIFT pul o'tkazmalari</p>
+          </div>
+          <div class="footer_box2">
+           <h3>Bank haqida</h3>
+           <p>Bank haqida</p>
+           <p>Rahbariyat</p>
+           <p>Bank tuzilmasi</p>
+           <p>Moliyaviy ko'rsatkichlar</p>
+           <p>Rivojlanish strategiyasi</p>
+           <p>Ma'lumotlarni oshkor qilish</p>
+           <p>Axborot xizmati</p>
+           <p>Normativ hujjatlar</p>
+           <p>Bank reytinglari</p>
+           <p>Bank aksiyalari</p>
+           <p>Bog'lanish</p>
+         </div>
+          <div class="footer_box2">
+            <h3>Yana</h3>
+            <p>Yangiliklar</p>
+            <p>Tanlov va tenderlar</p>
+            <p>E'lon</p>
+            <p>Korrupsiyaga qarshi kurashish</p>
+            <p>Ichki nazorat</p>
+            <p>Foydali resurslar</p>
+            <p>Fuqarolar murojaatlari</p>
+            <p>Mening Biznesim ilovasi</p>
+            <p>Biznesni Rivojlantirish Mikromoliya Tashkiloti</p>
+            <p>Bo'sh ish o'rinlari</p>
+            <p>Sayt xaritasi</p>
+          </div>
+         </div>
+         <hr>
+         <div class="footer_box_flex2">
+          <div class="footer_fotbox">
+          <p>Qo'llab-quvvatlash telegram-boti</p>
+          <a href="#">@BRB_Official_Bot</a>
+          <p>Kichik biznesga ko’maklashish markazlari bo'yicha aloqa raqami</p>
+          <a href="#">(78) 150-00-55</a>
+         </div>
+         <div class="footer_fotbox">
+          <p>Aloqa markazi 24/7</p>
+          <a href="#">(78) 150-00-55</a>
+          <p>Manzil</p>
+          <a href="#">Toshkent sh. Navoiy ko’chasi 18А, 100011</a>
+         </div>
+         <div class="footer_fotbox">
+          <p>Ishonch telefoni (9:00-18:00)</p>
+          <a href="#">(78) 150-00-55</a>
+          <p>Korrupsiya haqida xabar bering</p>
+          <a href="#">@BRB_Official_Bot</a>
+         </div>
+         <div class="footer_fotbox">
+          <p>Qo'llab-quvvatlash telegram-boti</p>
+          <a href="#">info@brb.uz</a>
+          <p>Kichik biznesga ko’maklashish markazlari bo'yicha aloqa raqami</p>
+          <a href="#">(78) 150-00-55</a>
+         </div>
+         <div class="footer_fotbox">
+          <p>Axborot xizmati</p>
+          <a href="#">(78) 150-00-55</a>
+          <div class="footer_icon">
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-telegram-2-fill"></i>
+            <i class="ri-youtube-fill"></i>
+            <i class="ri-linkedin-box-fill"></i>
+            <img src="./img/png/chatbot24.svg" alt="">
+          </div>
+         </div>
+         </div>
+         <div class="footer_box_flex footer2">
+          <img src="./img/svg/ios-app-icon.svg" alt="">
+         <a href="#">Saytdan foydalanish shartlari va qoidalari</a>
+         <a href="#">© BIZNESNI RIVOJLANTIRISH BANKI</a>
+         <a href="#" class="footer2_a">Sayt ma’lumotlaridan foydalanilganda saytga havola ko‘rsatilishi shart.</a>
+         </div>
+       </footer>
      <!-- script -->
     <script>
+      function scrollToMaslahat() {
+  document.getElementById("maslahat").scrollIntoView({
+    behavior: "smooth"
+  });
+}
+
   function toggleMenu() {
     document.querySelector('.navbar').classList.toggle('active');
   }
