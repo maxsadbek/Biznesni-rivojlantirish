@@ -9,15 +9,37 @@
 
 /* container */
 .container{
-    max-width: 1620px;
+    max-width: 1420px;
     margin: 0 auto;
     width: 100%;
 }
 html {
-  scroll-behavior: smooth; /* animatsiyali tushish */
+  scroll-behavior: smooth;
 }
 /* header */
 /* start */
+
+
+.search-container {
+  position: relative;
+}
+
+#search-input {
+  width: 70px;
+  transition: width 0.5s ease;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute; /* Muhimi shu! */
+  top:10px;
+  right: 50px;
+  z-index: 10;
+  background: white;
+}
+
+#search-input.active {
+  width: 200px;
+}
 
 header{
     padding: 3rem;
@@ -27,12 +49,13 @@ header{
     align-items: center;
     justify-content: center;
     font-size: 18px;
+    width: 100%;
 }
  .navbar {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 12px;
+      gap: 5px;
       position: relative;
     }
 
@@ -42,7 +65,7 @@ header{
 
     .navbar > div {
       position: relative;
-      margin-left: 20px;
+      margin-left: 10px;
       cursor: pointer;
     }
 
@@ -173,7 +196,7 @@ header{
     }
 
     .hero{
-        width: 1450px;
+        width: 1250px;
         height: 300px;
         overflow: hidden;
         object-fit: cover;
@@ -199,7 +222,6 @@ header{
         font-size: 25px;
     }
 
-    /* MENU TUGMASI (avval yashirin) */
 .menu-toggle {
   display: none;
   font-size: 32px;
@@ -242,8 +264,8 @@ button{
 }
 
     .card_1{
-    width: 650px;
-    height: 825px;
+    width: 550px;
+    height: 855px;
     background-color: #f4f4f4;
     padding: 3rem;
     text-align: center;
@@ -260,8 +282,8 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
   }
 
   .card_img{
-    height: 500px;
-    width: 50%;
+    height: 400px;
+    width: 70%;
     object-fit: cover;
   }
 
@@ -270,7 +292,7 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
   }
 
   .card_1 img{
-    width: 560px;
+    width: 500px;
   }
   .card_1 h3{
     font-size: 25px;
@@ -298,7 +320,7 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
   }
 
 .card_2{
-    width: 360px;
+    width: 330px;
     background-color: #f4f4f4;
     padding: 2rem;
     text-align: center;
@@ -339,7 +361,7 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
 /* valyuta section css */
 
       .valyuta{
-        margin-left: 13rem;
+        margin-left: 6.2rem;
         margin-top: 12rem;
       }
 
@@ -387,7 +409,8 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
     }
         /* end */
     .grid{
-      width: 450px;
+      height: 300px;
+      width: 420px;
       background-color: #f4f4f4;
       text-align: center;
       margin-top: 5rem;
@@ -405,7 +428,7 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
     }
     }
     .grid img{
-      width: 40%;
+      width: 30%;
     }
     .grid h3{
       padding: 1rem;
@@ -424,7 +447,7 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
 
     .grid_img{
       width: 10%;
-      height: 160px;
+      height: 120px;
       margin-top: 2.4rem;
       object-fit: cover;
     }
@@ -436,7 +459,7 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
       margin-bottom: 1rem;
       width: 78%;
       height: 450px;
-      margin-left: 12rem;
+      margin-left: 9rem;
       object-fit: cover;
     }
     .hero_2 h1{
@@ -569,7 +592,7 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
       padding-right: 7rem;
     }
     .Elon img{
-      width: 30%;
+      width: 40%;
     }
 
     .Elon-text h1{
@@ -688,11 +711,11 @@ box-shadow: 0px 31px 17px -15px rgba(147, 148, 150, 0.48);
 
 
     .yangilik_flex{
-      width: 440px;
+      width: 400px;
     }
 
     .yangilik_flex img{
-      width: 438px;
+      width: 408px;
       height: 300px;
       object-fit: cover;
       overflow: hidden;
